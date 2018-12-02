@@ -1,6 +1,6 @@
 <?php
 
-$conexion = mysql_connect("localhost", "root", "12345")
+$conexion = mysql_connect("localhost", "root", "")
         or die("Error de conexion" . mysql_error());
 
 if (!$conexion) {
