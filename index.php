@@ -15,7 +15,7 @@ if (@$_SESSION["name"]) {
     <body id="loginform">
         <div id="page_content">
             <div class="container">
-                <center><img src="imagenes/peguy2.jpg" border="5"></center>
+                <center><img src="imagenes/peguy2.jpg" border="10"></center>
                 <h1>BIENVENIDO<bdo dir="ltr" lang="es"></bdo></h1><noscript>
                 &lt;div class="error"&gt;&lt;img src="themes/dot.gif" title="" alt="" class="icon ic_s_error" /&gt; ¡Pasado este punto, debe tener Javascript activado!&lt;/div&gt;</noscript>
                 <!-- Login form -->
