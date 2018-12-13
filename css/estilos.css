@@ -1,19 +1,58 @@
-label {
-	width: 140px;	
-	padding: 4px;
+body{
+	background: #ccc;
+	font-size: 1em;
+	font-family: arial;
 }
-
-input {
-	width: 140px;	
-	padding: 4px;
-	margin: 5px 5px;	
+body{
+background: url(imagen.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
+header{
+	margin: 0;
+	background: #2E2EFE;	
+	color:#FE2E2E;
+	text-align: center; ;
+	position: 1em 0;
+	border-bottom: 5px solid #000;
 
-#formulario {
-	width: 400px;
-	margin: 0 auto;
-	background-color:#F0EFEF;
-	padding: 10px 30px;
-	border-radius: 6px;
-	border:thin #C1C1C1;
+}
+nav{
+	text-align: center;
+	margin-top: 0.7em;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	text-decoration: none;
+	background: #0489B1;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
+	box-shadow: 5px 5px 5px #333;
+}
+nav li a:hover {
+	text-decoration: none;
+	background: #AAE9F8;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
+}
+footer{
+	border-top: 3px solid #000;
+	background: #848484;
+	color:#FF0000;
+	text-align: center;
+	font-size: 0.7em;
+	padding: 1em 0;
+}
+section#contenido{
+	background: #fff;
+	padding: 1em ;
+	margin: 2em auto;
+	width: 80%;
 }

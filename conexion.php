@@ -1,16 +1,12 @@
-<?php
+<?php 
+	class Db{
+		private static $conexion=null;
+		private function __construct(){}
 
-$conexion = mysql_connect("localhost", "ittlaxia_logueo", "qwerty")
-        or die("Error de conexion" . mysql_error());
-
-if (!$conexion) {
-    header("location:verificacion.php?error=Error en la Conexion de la DB");
-    exit();
-}
-$db = mysql_select_db("ittlaxia_logueo")
-        or die("Error al seleccionar la base de datos" . mysql_error());
-if (!$db) {
-    header("location:verificacion.php?error=Error al Seleecionar la DB");
-    exit();
-}
+		public static function conectar(){
+			$pdo_options[PDO::ATTR_ERRMODE]=PDO::ERRMODE_EXCEPTION;
+			self::$conexion=new PDO('mysql:host=localhost;dbname=baselogin','root','',$pdo_options);
+			return self::$conexion;
+		}
+	}
 ?>
