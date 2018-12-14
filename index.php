@@ -7,6 +7,7 @@ if (@$_SESSION["name"]) {
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
     <head>
         <meta charset="UTF-8">
         <title>Login | PEGUY</title>
@@ -33,6 +34,8 @@ if (@$_SESSION["name"]) {
                         <input type="hidden" name="server" value="1"></fieldset>
                     <fieldset class="tblFooters">
                         <input value="Iniciar" type="submit" id="input_go">
+                        <center>
+                            <p><a href="user.php">Registrarse</a></p>
                     </fieldset>
                 </form>
                 <?php
@@ -59,7 +62,7 @@ if (@$_SESSION["name"]) {
                 }
                 ?>
             </div>
-            <p><a href="user.php">Registrarse</a></p>
+            
         </div>
     </body>
 </html>
