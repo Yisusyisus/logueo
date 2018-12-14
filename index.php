@@ -12,7 +12,7 @@
 <body>
 <header>
 	<div class="w3-container w3-white w3-center">
-                <center><img src="imagen/12.png" border="0"></center>
+                <center><img src="http://ganzoe.ittlaxiacosistemas.com/imagen/12.png" border="0"></center>
 		<h1>BIENVENIDO A PEGUY APPrende</h1>
 	</div>
 </header>
