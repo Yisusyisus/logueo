@@ -13,7 +13,7 @@
 <header>
 	<div class="w3-container w3-black w3-center">
                 <center><img src="imagen/peguy2.jpg" border="0"></center>
-		<h1>BIENVENIDO A PEGUY APPrende</h1>
+		<h1>BIENVENIDO A PEGUY</h1>
 	</div>
 </header>
 

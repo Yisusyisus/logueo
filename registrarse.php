@@ -27,7 +27,7 @@
 				</p>
 				<p>
 					<input type="hidden" name="registrarse" value="registrarse">
-					<button class="w3-btn w3-blue">Registrarse</button>
+					<button class="w3-btn w3-blue">Registrate</button>
 				</p>
 				<p><a href="index.php">Ahora no</a></p>
 			</form>
