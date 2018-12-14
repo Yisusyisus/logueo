@@ -15,7 +15,6 @@
 		$usuario->setClave($_POST['pas']);
 		if ($crud->buscarUsuario($_POST['usuario'])) {
 			$crud->insertar($usuario);
-			header('Location: index.php');
 			header('http://ganzoe.ittlaxiacosistemas.com: index.php');
 		}else{
 			header('Location: error.php?mensaje=El nombre de usuario ya existe');
