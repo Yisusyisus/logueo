@@ -21,23 +21,49 @@
 	</div>
 
 	<p></p>
-	<center>
-				<div class="detalles">
-					<button class="w3-btn w3-red"><a href="pand.php"> PANDA</button>
+			<div class="detalles">
+			<button class="w3-btn w3-red"><a href="pand.php"> PANDA</button>
 					
-				</div>
+		  </div>
+          <br>
+		  <div class="detalles">
+		  <button class="w3-btn w3-yellow"><a href="san.php"> SANDIA</button>
+					
+		  </div>
+		  
+		  <br>
+		  <div class="detalles">
+          <button class="w3-btn w3-yellow"><a href="cone.php"> CONEJO</button>
+          
+          </div>
 
-<br>
-				<div class="detalles">
-					<button class="w3-btn w3-yellow"><a href="san.php"> SANDIA</button>
-					
-					
-				</div>
-<br>
-</center>
+          <br>
+
+          <div class="detalles">
+          <button class="w3-btn w3-yellow"><a href="ele.php"> ELEFANTE</button>
+          </div>
+         
+
+          <br>
+          <center>
+		  <div class="detalles">
+          <button class="w3-btn w3-yellow"><a href="gat.php"> GATO</button>
+          </div>
+
+          <br>
+		  <div class="detalles">
+          <button class="w3-btn w3-yellow"><a href="leo.php"> LEON</button>
+          </div>
+
+		  <div class="detalles">
+          <button class="w3-btn w3-yellow"><a href="os.php"> OSO</button>
+          </div>
+		  <div class="detalles">
+          <button class="w3-btn w3-yellow"><a href="perr.php"> PERRO</button>
+           </center>
+          </div>
 	<form class="w3-container" action="controller_login.php" method="post">
 		<input type="hidden" name="salir" value="salir">
-		
 		<button class="w3-btn w3-green">Salir</button>
 	</form>
 </body>

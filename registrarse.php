@@ -7,12 +7,12 @@
 </head>
 <body>
 <header>
-	<div class="w3-container w3-gray">
+	<div class="w3-container w3-white">
 		<center><h1>BIENVENIDO A PEGUY</h1></center>
-		<center><img src="imagen/peguy2.jpg" border="0"></center>
+		<center><img src="imagen/12.png" border="0"></center>
 	</div>
 </header>
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-white">
 			<center><h1>Registro de Usuarios</h1></center>
 		</div>
 		<div>
@@ -33,7 +33,7 @@
 			</form>
 		</div>
 <footer>
-	<div class="w3-container w3-gray">
+	<div class="w3-container w3-white">
 		<center><h4>PEGUY APPrende</h4><center>
 	</div>
 </footer>

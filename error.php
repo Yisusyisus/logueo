@@ -7,13 +7,13 @@
 </head>
 <body>
 	<header>
-		<div class="w3-container w3-black w3-center">
+		<div class="w3-container w3-white w3-center">
 			<h1>VERIFICA TU INFORMACION</h1>
 			<center><img src="imagen/robot.jpg" border="0"></center>
 		</div>
 </header>
 
-	<div class="w3-container w3-red">
+	<div class="w3-container w3-white">
 		<center><h1><?php echo $_GET['mensaje'];?></h1></center>
 		<center><a href="index.php">Regresa al inicio</a></center>
 	</div>

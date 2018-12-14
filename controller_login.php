@@ -25,7 +25,7 @@
 		// si el id del objeto retornado no es null, quiere decir que encontro un registro en la base
 		if ($usuario->getId()!=NULL) {
 			$_SESSION['usuario']=$usuario; //si el usuario se encuentra, crea la sesión de usuario
-			header('Location: cuenta.php'); //envia a la página que simula la cuenta
+			header('Location: cuenta1.php'); //envia a la página que simula la cuenta
 		}else{
 			header('Location: error.php?mensaje=Tus nombre de usuario o clave son incorrectos'); // cuando los datos son incorrectos envia a la página de error
 		}

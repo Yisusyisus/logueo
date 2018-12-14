@@ -11,14 +11,14 @@
 </head>
 <body>
 <header>
-	<div class="w3-container w3-black w3-center">
-                <center><img src="imagen/peguy2.jpg" border="0"></center>
+	<div class="w3-container w3-white w3-center">
+                <center><img src="imagen/12.png" border="0"></center>
 		<h1>BIENVENIDO A PEGUY APPrende</h1>
 	</div>
 </header>
 
 	
-	<div class="w3-container w3-green">
+	<div class="w3-container w3-white">
 		<center><h2>Sesion</h2><center>
 	</div>
 
@@ -40,7 +40,7 @@
 		<p>Si aun no tienes una cuenta <a href="registrarse.php">!Registrate!</a></p>
 	</form>
 <footer>
-	<div class="w3-container w3-black">
+	<div class="w3-container w3-white">
 		<center><h4>Ingresa a PEGUY Ya!!!</h4><center>
 	</div>
 </footer>

@@ -7,23 +7,23 @@
 </head>
 <body>
 <header>
-	<div class="w3-container w3-gray">
+	<div class="w3-container w3-white">
 		<center><h1>BIENVENIDO A PEGUY</h1></center>
 		<center><img src="imagen/sandia.jpg" border="0"></center>
 	</div>
 </header>
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-white">
 			<center><h1>SANDIA</h1></center>
 			
 		</div>
 		<div>
 			<form class="w3-container" action="controller_login.php" method="post">
 				
-				<p><a href="cuenta.php">REGRESA</a></p>
+				<p><a href="cuenta1.php">REGRESA</a></p>
 			</form>
 		</div>
 <footer>
-	<div class="w3-container w3-gray">
+	<div class="w3-container w3-white">
 		<center><h4>PEGUY APPrende</h4><center>
 	</div>
 </footer>
