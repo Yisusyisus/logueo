@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SANDIA</title>
+	<title>CERDO</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
@@ -9,11 +9,11 @@
 <header>
 	<div class="w3-container w3-white">
 		<center><h1>BIENVENIDO A PEGUY</h1></center>
-		<center><img src="imagen/sandia.jpg" border="0"></center>
+		<center><img src="imagen/CERDO.jpg" border="0"></center>
 	</div>
 </header>
 		<div class="w3-container w3-white">
-			<center><h1>SANDIA</h1></center>
+			<center><h1>CERDO</h1></center>
 			
 		</div>
 		<div>

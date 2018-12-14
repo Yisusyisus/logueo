@@ -9,10 +9,10 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="http://ganzoe.ittlaxiacosistemas.com/css/bootstrap.css" rel="stylesheet">
-    <link href="http://ganzoe.ittlaxiacosistemas.com/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="http://ganzoe.ittlaxiacosistemas.com/css/docs.css" rel="stylesheet">
-    <link href="http://ganzoe.ittlaxiacosistemas.com/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <link href="js/google-code-prettify/prettify.css" rel="stylesheet">
     <!--script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script-->
 	  <script src="js/jquery.js"></script>
     <script src="js/bootstrap-transition.js"></script>

@@ -16,6 +16,7 @@
 		if ($crud->buscarUsuario($_POST['usuario'])) {
 			$crud->insertar($usuario);
 			header('Location: index.php');
+			header('http://ganzoe.ittlaxiacosistemas.com: index.php');
 		}else{
 			header('Location: error.php?mensaje=El nombre de usuario ya existe');
 		}		
@@ -30,7 +31,7 @@
 			header('Location: error.php?mensaje=Tus nombre de usuario o clave son incorrectos'); // cuando los datos son incorrectos envia a la página de error
 		}
 	}elseif(isset($_POST['salir'])){ // cuando presiona el botòn salir
-		header('Location: index.php');
+		header('http://ganzoe.ittlaxiacosistemas.com/: index.php');
 		unset($_SESSION['usuario']); //destruye la sesión
 	}
 ?>
